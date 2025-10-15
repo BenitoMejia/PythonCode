@@ -1,6 +1,6 @@
 # String Variables 
 name = input("Type Name")
-favoritehobby = ("Hustling")
+favoritehobby = input("Hustling")
 
 # Integer Variables
 birthyear = (2003)
