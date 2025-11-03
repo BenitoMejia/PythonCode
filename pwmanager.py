@@ -3,7 +3,6 @@ print("Password Generator:")
 import random
 x = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789"
 
-#"input" will register the values the user inputs, then assign them as integers
 number = input('Number of Passwords:')
 number = int(number)
 
@@ -14,4 +13,4 @@ for p in range(number): #for loop will according to the users' input
     password = " "
     for count in range(length): #for loop will according to the users' input
         password += random.choice(x) #a random value from "x" is being obtained, a certain amount of times
-    print(password)
+    print("Password:", password)
