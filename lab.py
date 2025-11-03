@@ -6,18 +6,20 @@ print("Welcome to the Debugging Lab!")
 name = input("Enter your name: ")
 print("Hello " + name + "!" + " Let's calculate your test scores.")
 
-scores = [85, 90, 78, 88, 92] #pool of data
+scores = [85, 90, 78, 88, 92] #an object: pool of items
 
 total = 0
 for score in scores:
-    total = total + score 
+    total = total + score #adds up the total to every item in score
 
-average = total / len(scores)
+#average will the finial "total" and divide it by the len
+average = total / len(scores) #len: number of items in an object
 print("Your average score is:", average)
 
+#loop will repeat until highest value is found
 highest = 0
 for s in scores:
-    if s > highest:
-        highest = s
+    if s > highest: 
+        highest = s 
 
 print("Your highest score was:" + str(highest))
