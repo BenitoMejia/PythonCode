@@ -1,5 +1,5 @@
 print("Multiplication")
 
-#Code to get a range from a specified number to a specified number
+#for loop is using the range to perform the loop a certain number of times
 for count in range(1,11):
     print(count)
