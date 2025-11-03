@@ -1,6 +1,7 @@
 loop_count = 0
 Continue = input("Do you want to continue?")
-Continue = "Y"
+
+#will keep reading data until input is neither "Y" or "y"
 while (Continue == "Y" or Continue == "y"):
     loop_count += 1
     Continue = input("Do you want to continue?")
