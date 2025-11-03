@@ -10,8 +10,8 @@ number = int(number)
 length = input('Password Length:')
 length = int(length)
 
-for p in range(number): #for loop will look for the range given by users' input
+for p in range(number): #for loop will according to the users' input
     password = " "
-    for count in range(length): 
+    for count in range(length): #for loop will according to the users' input
         password += random.choice(x) #a random value from "x" is being obtained, a certain amount of times
     print(password)
