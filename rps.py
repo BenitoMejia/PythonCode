@@ -1,6 +1,5 @@
 print ("Rock, Paper, Sccisors")
+import random
+mylist = ["rock", "paper", "sccisors"]
 
-rock = "rock"
-paper = "paper"
-scissors = "scissors"
-
+print(random.choice(mylist))
