@@ -3,11 +3,9 @@ print("Password Generator:")
 import random
 x = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?0123456789"
 
-number = input('Number of Passwords:')
-number = int(number)
+number = int(input('Number of Passwords:'))
 
-length = input('Password Length:')
-length = int(length)
+length = int(input('Password Length:'))
 
 for p in range(number): #for loop will according to the users' input
     password = " "
