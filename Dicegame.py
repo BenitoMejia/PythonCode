@@ -15,7 +15,9 @@ if total == 7 or total == 11:
 elif number1 == number2:
     if number1 == 6 and number2 == 6:
         print("Jackpot!") #and means both have to be true 
+    elif number1 == 2 and number2 == 2:
+        print("Snake Eyes, you loose!")
     else:
         print("Doubles, you win!") #if previous condition isn't met, then it'll choose the else
 else:
-    print("You loose")
+    print("You loose, better luck next time.")

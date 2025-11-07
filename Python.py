@@ -3,8 +3,7 @@ name = input("Type Name:")
 favoritehobby = input("Your favorite hobby:")
 
 # Integer Variables
-birthyear = input("Your birthyear:")
-birthyear = int(birthyear)
+birthyear = int(input("Your birthyear:"))
 currentyear = (2025)
 
 # Function 
