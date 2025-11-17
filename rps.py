@@ -19,4 +19,4 @@ elif player1 == 'rock' and player2 == 'scissors':
      print("You Win!")
 else:
      print("Computer chose:", player2)
-     print("You lost")
+     print("Computer Won. Better luck next time")
