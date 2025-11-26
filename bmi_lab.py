@@ -23,6 +23,21 @@ def calculatebmi(weight, height):
     bmi = (weight/(height*height))*703
     return bmi
 
+def getCategory(bmi):
+    """
+    Determine the BMI category based on value.
+    """
+    category = ""
+    if bmi < 18.5:
+        category = "Underweight"
+    elif bmi < 25:
+        category = "Normal"
+    elif bmi < 30:
+        category = "Overweight"
+    else:
+        category = "Obese"
+    return category
+
 # --- Main Program ---
 print("BMI Calculator (Python)")
 
@@ -35,5 +50,6 @@ height = getPositiveNumber("Enter height (inches): ")
 
 bmiValue = calculatebmi(weight, height)
 truebmi = round(bmiValue)
+category = getCategory(bmiValue)
 
-print(f"Name:{name}", f"Weight:{weight}", f"Height:{height}", f"Your BMI is:{truebmi}")
+print(f"Name:{name}", f"Your BMI is:{truebmi}", f"Status:{category}")
